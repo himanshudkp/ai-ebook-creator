@@ -1,0 +1,54 @@
+# Root pnpm workspace files generated
+node_modules
+pnpm-store
+.pnpm-store
+**/node_modules
+**/.pnpm-store
+
+# Monorepo build outputs
+dist
+build
+out
+.next
+coverage
+
+# Logs
+*.log
+logs
+npm-debug.log*
+pnpm-debug.log*
+
+# Editor junk
+.DS_Store
+Thumbs.db
+.vscode
+.idea
+*.swp
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git
+.git
+.gitignore
+
+# OS files
+*.tmp
+*.bak
+
+# Docker
+docker-compose.override.yml
+
+# Test caches
+coverage
+.cache
+.tmp
+
+# Local development only
+apps/frontend/.next/cache
+apps/frontend/postcss-cache
+apps/frontend/.turbo
+apps/backend/.ts-node
+apps/backend/.cache
